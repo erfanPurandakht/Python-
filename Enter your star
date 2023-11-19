@@ -1,0 +1,5 @@
+def print_stars(num):
+    for i in range(num):
+        print('*'*(i + 1))
+x = int(input("لطفا یک عدد وارد کنید:  ')) 
+print_stars(x)
