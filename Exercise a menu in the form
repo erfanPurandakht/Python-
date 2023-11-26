@@ -1,0 +1,22 @@
+while True:
+    print("منوی اصلی:")
+    print("1. infevt to tist")
+    print("2. print list")
+    print("3. exit")
+
+    choice = input("لطفا یک گزینه را انتخاب کنید: ")
+
+    if choice == "1":
+        print("شما 'infevt to tist' را انتخاب کردید.")
+        # اینجا می‌توانید کد ارتباطی با انتخاب 1 را قرار دهید.
+
+    elif choice == "2":
+        print("شما 'print list' را انتخاب کردید.")
+        # اینجا می‌توانید کد ارتباطی با انتخاب 2 را قرار دهید.
+
+    elif choice == "3":
+        print("برنامه خاتمه یافت.")
+        break   
+
+    else:
+        print("گزینه نامعتبر است. لطفا یک گزینه معتبر وارد کنید.")
